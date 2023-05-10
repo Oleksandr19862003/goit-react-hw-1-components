@@ -1,0 +1,14 @@
+.label {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 19px;
+  color: rgb(253, 253, 253);
+  width: calc(100% / 5);
+  border-top: 1px solid rgba(128, 128, 128, 0.152);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+}

@@ -1,15 +1,50 @@
 @import-normalize; /* bring in normalize.css styles */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
- 
+  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #ebf5fc; */
+  background-image: linear-gradient(
+    to left,
+    #d8ebf2 0%,
+    #cee1ce 46%,
+    #eeeddb 100%
+  );
+}
+
+p,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --bg: #c4e6e5;
+  --bg-color: #eaf3df;
+  --main-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  --online: #40c767;
+  --offline: #ff5858;
+  --bg-img: linear-gradient(to left, #bae3f1 0%, #b9f0bb 46%, #edeab0 100%);
 }
